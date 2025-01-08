@@ -1,0 +1,49 @@
+h2,
+h4 {
+  color: rgb(72, 225, 105);
+}
+p span {
+  color: rgb(72, 225, 105);
+}
+.division {
+  display: flexbox;
+  justify-content: space-around;
+  align-items: center;
+}
+.d1 {
+  width: 50%;
+  height: 170px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(200, 250, 120);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.d1:hover {
+  background-color: white;
+  transform: translatey(10px);
+}
+.d2 {
+  width: 150px;
+  height: 20px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(200, 250, 120);
+  cursor: pointer;
+  text-align: center;
+}
+.d2:hover {
+  background-color: white;
+}
+body {
+  background: url("webback.jpg") no-repeat center/cover;
+}
+.divisioncontainer {
+  width: 100%;
+  display: flex;
+}
+h3 {
+  text-align: center;
+}
